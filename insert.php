@@ -10,7 +10,7 @@
           )";
 
   // Step 2: Replace the value "null" with a MySQLi connection to your database (make sure you've run the SQL file in Workbench before testing!)
-  $conn = mysqli_connect("localhost", "root", "root", "lesson_03"); //I use MAMP Sever, the password is root
+  $conn = mysqli_connect("localhost", "root", null, "lesson_03"); 
 
   // Step 3: Execute the SQL statement ($sql) using the MySQLi query function (replace the null value)
   $res = mysqli_query($conn, $sql);

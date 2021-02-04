@@ -1,5 +1,5 @@
 <?php
-  $conn = mysqli_connect("localhost", "root", "root", "lesson_03"); //I use MAMP Sever, the password is root
+  $conn = mysqli_connect("localhost", "root", null, "lesson_03"); 
 
   $result = mysqli_query($conn, "SELECT * FROM products");
 
